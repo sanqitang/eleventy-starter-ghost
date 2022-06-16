@@ -13,7 +13,7 @@ const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 const api = new ghostContentAPI({
   url: process.env.GHOST_API_URL,
   key: process.env.GHOST_CONTENT_API_KEY,
-  version: "v5.0"
+  version: "v5"
 });
 
 // Strip Ghost domain from urls
